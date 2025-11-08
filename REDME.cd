@@ -1,0 +1,17 @@
+This line includes the standard input-output library, which allows the program to use functions like printf() and scanf() for displaying and reading data.
+Passengers → total number of passengers to process.
+Age → passenger’s age.
+Time → travel time (in 24-hour format).
+i → loop counter for iterating through passengers.
+Distance → distance the passenger travels (in km).
+Base_fare → fare before applying discounts or surcharges (₹10 × distance).
+Final_fare → final amount after applying discounts/surcharges/min fare.
+Total_revenue → sum of all fares collected.
+Highest_fare → stores the maximum fare recorded.
+Lowest_fare → stores the minimum fare recorded (initialized with a very high value).
+Name[50] → stores the passenger’s name (string).
+Displays a message asking for the number of passengers and stores it in passengers.
+This for loop repeats the process for each passenger, from 1 up to the total number entered.
+Print a header like “Passenger 1”, “Passenger 2”, etc.
+Ask for the passenger’s name, age, travel distance, and travel time.
+Each input is saved in the respective variable.
